@@ -15,7 +15,7 @@
     "start": "http-server",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-     "server" : "json-server --watch db.json --port 8080"
+     "server" : "npx json-server --watch db.json --port 8080"
   },
   "eslintConfig": {
     "extends": [
